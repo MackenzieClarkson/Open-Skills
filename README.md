@@ -16,6 +16,14 @@ Create-React-App is excellent for starting new React Applications quickly. It is
 Chart-js was used to display bar chart.
 No overall styling frameworks were used.
 Axios was used for API connection for better error reporting and cleaner code than fetch (in my opinion).
+React-router
+
+## Performance & Reliability Considerations
+Using non blocking fetching techniques (promises, async, await) were used for performance so that code is not halted by data fetching.
+A hashset data structure is used where applicable such as bar chart. 
+Error reporting functionality on api calls to notify user of what went wrong (i.e API is down).
+Redux was not used as it is not necessary for this scale of application.
+Though not necessary, a react-router was used to benefit possible scaling up of Application and ease of Single Page Routing. 
 
 ## Future Considerations/Implementation
 With more time, modularity can be improved on some components which are larger than desired, and do far too much. This can be achieved with more pure components and separation of concerns, generally.
