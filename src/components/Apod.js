@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import NASAService from '../services/NASAService'
-import axios from 'axios'
 import moment from 'moment'
 class Apod extends Component{
   constructor(props) {
@@ -52,7 +51,7 @@ render(){
           <p>
           {this.state.explanation}
           </p>
-            <img className="img-contain" src={this.state.image} />
+            <img alt='Nasa Pic' className="img-contain" src={this.state.image} />
          </div>
        }
     </React.Fragment>

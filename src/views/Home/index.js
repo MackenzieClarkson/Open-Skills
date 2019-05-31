@@ -11,12 +11,12 @@ function Home() {
       </h3>
       <Link to='/NASA'>
         <div className='half-wrap card'>
-          <img className="img-contain" src='/nasa.png'/>
+          <img className="img-contain" alt='NASA' src='/nasa.png'/>
         </div>
       </Link>
       <Link to='/Jobs'>
         <div className='half-wrap card'>
-          <img className="img-contain" src='/UoC.jpeg'/>
+          <img className="img-contain" alt='University of Chicago' src='/UoC.jpeg'/>
         </div>
       </Link>
     </div>

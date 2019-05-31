@@ -72,8 +72,8 @@ class Job extends Component {
     try{
       var skillsForJob = await jobSkillService.skillsByJob(job)
       var chartData = {}
-      var barDataObject = skillsForJob.data.skills.filter(skill =>{
-         chartData[skill.skill_name] = skill.importance
+      skillsForJob.data.skills.filter(function(skill){
+         return chartData[skill.skill_name] = skill.importance
       })
 
       var barData = {

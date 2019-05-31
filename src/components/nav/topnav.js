@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
   return(
     <nav className="navbar">
-      <a href="#" className="title">
+      <a href="/#" className="title">
       <h4>Public API Explorer</h4>
       </a>
         <ul className="main-nav" id="js-menu">
