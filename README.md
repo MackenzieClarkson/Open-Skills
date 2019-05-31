@@ -22,6 +22,7 @@ With more time, modularity can be improved on some components which are larger t
 Add search to jobs and skills and leverage the /autocomplete endpoint, instead of dropdown.
 Add Loading status indicator for user while data is fetching
 Refactor out inline arrow functions
+Add unit testing either with manual asserts or leverage Jest to check expected lifecycle states
 
 ## Extra Notes
 Open Skills API is often down
