@@ -35,7 +35,7 @@ Add unit testing either with manual asserts or leverage Jest to check expected l
 ## Extra Notes
 Open Skills API is often down.
 Please check with http://api.dataatwork.org/v1/spec/#/ to verify.
-A screenshot folder is included in public/screenshots in case APIs are down, views can be seen there
+A screenshot folder is included in public/screenshots in case APIs are down, views can be seen there. So far ~8-10 hours have been put into this project. 
 
 ## Deployment
 See CRA.md
