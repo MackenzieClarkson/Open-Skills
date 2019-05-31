@@ -1,0 +1,149 @@
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+ul{
+list-style-type: none;
+text-decoration: none;
+}
+.select-container{
+  position: relative;
+}
+.select{
+  position: absolute;
+}
+.no-overlap{
+  max-width: 100%;
+}
+label {
+    display: inline-block;
+    width: 10em;
+    margin-right: .5em;
+    padding-top: 1.5em;
+    text-align:center;
+}
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  padding-top: 5vh;
+  margin-right: 10px;
+}
+.half-wrap {
+  float: left;
+  width: 45%;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  height: 75%;
+}
+.center{
+  align-items: center;
+  justify-content: center;
+}
+.quarter-wrap {
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.mini-wrap {
+  float: left;
+  width: 25%;
+  margin-right: 10px;
+  padding-bottom: 10px;
+}
+.fill-wrap {
+  width: 70%;
+  float: left;
+  margin-right: 10px;
+}
+/* .img-container {
+  width: 100%
+} */
+.img-contain {
+  width: 100%;
+  max-height: 50vh;
+  max-width: 600px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-links,
+.title {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  min-height: 40px;
+  height: 6vh;
+  align-items: center;
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #000000 0%, #C0EEFF 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: flex;
+  margin-right: 5vw;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.error{
+  color:red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-nav li {
+  margin: 0;
+}
+.link {
+  color: blue;
+}
+.link:hover {
+  color: green;
+  cursor: pointer;
+}
+.nav-links {
+  margin-left: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.nav-links:hover {
+  color: rgba(155, 255, 255, 1);
+}
